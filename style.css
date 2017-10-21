@@ -1,0 +1,147 @@
+/*
+遵循非侵入的原则设置了页面
+*/
+ul, li {
+	list-style: none;
+}
+
+body {
+	background-image: url(img/leaf.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+div#calculator {
+	/*border-color: black;
+	border-style: solid;
+	text-align: center;*/
+	position: fixed;
+	padding-right: 35px;
+	padding-top: 90px;
+	left: 40%;
+	bottom: 5%;
+	/* background-image: url("http://wx2.sinaimg.cn/mw690/e01863caly1fkofgr9kp6j20fn0ho4cg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover; */
+}
+
+
+textarea#error {
+	text-align: left;
+	padding-right: 0;
+	width: 200px;
+	height: 40px;
+	color: red;
+	font-size: 160%;
+	font-weight: bold;
+	word-wrap:break-word;
+	background-color: rgba(0,0,0,0);
+	outline: none;
+	border: none;
+	resize:none;
+	/* readonly:readonly; */ 
+}
+
+textarea#present {
+	text-align: right;
+	padding-left: 0;
+	width: 200px;
+	height: 40px;
+	font-size: 200%;
+	background-color: rgba(0,0,0,0);
+	outline: none;
+	border: none;
+	resize:none;
+	font-weight: bolder;
+	position: fixed;
+	left: 48%;
+	/*readonly:"readonly";*/
+	/*disabled="disabled";*/
+	/* word-wrap:break-word; */ 
+	/* text-overflow:ellipsis; */ 
+	/* word-break:break-all; */
+	/* wrap:"wrap"; */
+}
+
+
+div#menu {
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	height: 440px;
+	width: 480px;
+	background-image: url(img/bug.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 120%;
+	/*background-position: fixed;*/
+	/*border-color: black;
+	border-style: solid;*/
+	background-color: rgba(0,0,0,0);
+	padding-top: 35%;
+	padding-right: 4%;
+}
+
+div#message {
+	margin: 0;
+	padding: 0;
+	margin-left: 40px;
+	/*margin-bottom: 5px;*/
+	width: 80%;
+	height: 10%;
+	/* background-image: url("http://wx3.sinaimg.cn/mw690/e01863caly1fkopekj1irj20d103jwis.jpg"); */
+	/*background-repeat: no-repeat;
+	background-size: cover;*/
+	/*border-color: black;
+	border-style: solid;*/
+}
+
+div#input {
+	margin: 0;
+	padding: 0;
+	margin-left: 40px;
+	/*margin-bottom: 5px;*/
+	width: 80%;
+	height: 40%;
+	/*border-color: black;
+	border-style: solid;*/
+}
+
+button {
+	width: 40px;
+	color: yellow;
+	height: 40px;
+	background-color: black;
+	border: none;
+	border-style: none;
+	margin: 5px;
+	text-align: center;
+	font-size: 16px;
+	border-radius: 50%;
+	display: inline-block;
+	outline: none;
+	opacity: 0.5;
+	transition: all 0.5s ease_in_out;
+}
+
+button:hover {
+	color: red;
+	font-weight: bolder;
+    opacity: 1;
+}
+
+footer {
+	color: red;
+	font-size: 130%;
+	position: fixed;
+	bottom: 0%;
+	left: 44%;
+}
+
+strong {
+	font-size: 200%;
+}
+
+/* button:active:after {
+    opacity: 1;
+} */
